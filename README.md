@@ -1,8 +1,7 @@
-# React + Vite
+# React + Vite Front Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Minimal template setup to get React with Vite and TailwindCss.
+This setup offers by default an Auth Context for Sign Up, Log In and Log Out users on the front-end. 
+Using LocalStorage to store the JWT token generated from the back end.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Please do create a `.env` file and add `VITE_API_URL` for the URL of your node backend.
